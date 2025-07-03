@@ -1,12 +1,9 @@
-<h1>Weather-Clock ⛅</h1>
 Weather-Clock is an open source weather+clock Application that serves two main purposes
 
- 1. Allow users to see the time
- 2. See what day of the week it is
- 3. The weather
- 4. Aesthetics
+1. Allow users to see the date and time
+2. See what the current weather is like
 
-Unfortunately this Weather-Clock Application only works in the country of singapore as it makes use of the singapore government's free weather api 
+Unfortunately this Weather-Clock Application only works in the country of singapore as it makes use of the singapore government's free weather api
 
 ☁️⛅⛈️🌤️🌥️🌦️🌧️🌨️
 
@@ -15,11 +12,10 @@ Navigate to the script.js file of this project
 
 go to this specific line
 
-    var  link  =  myObject['items'][0]['forecasts'][29]['forecast'];
+var  link  =  myObject['items'][0]['forecasts'][29]['forecast'];
 Change the following
 
-    myObject['items'][0]['forecasts'][{change this based on your region}]['forecast'];
-   
+myObject['items'][0]['forecasts'][{change this based on your region}]['forecast'];
 <h3>Regions & Corresponding numbers</h3>
 
 ```
