@@ -1,9 +1,11 @@
-Weather-Clock is an open source weather+clock Application that serves two main purposes
+![](assets/weatherclock.png)
+
+Weather-Clock is an open source weatherclock Application that serves two main purposes
 
 1. Allow users to see the date and time
 2. See what the current weather is like
 
-Unfortunately this Weather-Clock Application only works in the country of singapore as it makes use of the singapore government's free weather api
+Unfortunately this Weather-Clock Application only works in the country of singapore as it makes use of the Singapore government's free weather api
 
 ☁️⛅⛈️🌤️🌥️🌦️🌧️🌨️
 
@@ -16,6 +18,7 @@ var  link  =  myObject['items'][0]['forecasts'][29]['forecast'];
 Change the following
 
 myObject['items'][0]['forecasts'][{change this based on your region}]['forecast'];
+
 <h3>Regions & Corresponding numbers</h3>
 
 ```
@@ -67,4 +70,5 @@ myObject['items'][0]['forecasts'][{change this based on your region}]['forecast'
  46.  45: {name:  'Woodlands',  label_location:  {…}}
  47.  46: {name:  'Yishun',  label_location:  {…}}
 ```
+
 Just input your region and host it on a static web hosting server as it is completely client side
